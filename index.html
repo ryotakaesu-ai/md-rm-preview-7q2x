@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
+<title>マニーデンタル リッチメニュー 3スタイル比較</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14161a;color:#e8e8e8;font-family:"Hiragino Sans",sans-serif;padding:26px 30px 80px}
+h1{font-size:17px;font-weight:600}
+.sub{font-size:12px;color:#8b9099;margin:6px 0 20px}.sub b{color:#4ade80}
+.style{border-top:1px solid #2a2e35;padding-top:18px;margin-top:30px}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.no{font-size:16px;font-weight:700;color:#4ade80}
+.ti{font-size:14px;color:#e8e8e8}
+.old{font-size:10px;color:#5c636d;border:1px solid #333941;border-radius:3px;padding:2px 7px}
+.de{font-size:11px;color:#6b7280}
+.two{display:flex;gap:20px;flex-wrap:wrap}
+.pane{flex:1;min-width:360px}
+.lb{font-size:11px;color:#8b9099;margin-bottom:6px}
+.pane img{width:100%;display:block;border-radius:5px;border:1px solid #2a2e35}
+.phones{display:flex;gap:14px;margin-top:12px;flex-wrap:wrap}
+.p{width:300px;background:#000;border-radius:12px;border:1px solid #333;overflow:hidden}
+.p img{width:100%;display:block}
+.p .t{font-size:10px;color:#888;text-align:center;padding:5px}
+.pick{background:#1d2127;border:1px solid #2f343c;border-radius:6px;padding:12px 16px;font-size:12px;color:#aab;margin-top:28px;line-height:1.9}
+.pick b{color:#e8e8e8}
+</style></head><body>
+<h1>マニーデンタルクリニック リッチメニュー ／ 3スタイル × タブA・B</h1>
+<div class="sub">ネイビー濃いめ ・ Noto Sans JP ・ CTAはブランドピンク</div>
+
+<div class="style">
+  <div class="sh"><span class="no">①</span><span class="ti">枠なし・中央に文字</span><span class="old">旧②</span><span class="de">現行。全面に均一の塗り</span></div>
+  <div class="two">
+    <div class="pane"><div class="lb">タブA</div><img id="s_a"></div>
+    <div class="pane"><div class="lb">タブB</div><img id="s_b"></div>
+  </div>
+  <div class="phones"><div class="p"><img id="spa"><div class="t">実機 タブA</div></div><div class="p"><img id="spb"><div class="t">実機 タブB</div></div></div>
+</div>
+
+<div class="style">
+  <div class="sh"><span class="no">②</span><span class="ti">ピンクのヘアライン枠</span><span class="old">旧③</span><span class="de">白余白＋ブランドピンクの細枠</span></div>
+  <div class="two">
+    <div class="pane"><div class="lb">タブA</div><img id="h_a"></div>
+    <div class="pane"><div class="lb">タブB</div><img id="h_b"></div>
+  </div>
+  <div class="phones"><div class="p"><img id="hpa"><div class="t">実機 タブA</div></div><div class="p"><img id="hpb"><div class="t">実機 タブB</div></div></div>
+</div>
+
+<div class="style">
+  <div class="sh"><span class="no">③</span><span class="ti">下からのグラデーション</span><span class="old">旧①</span><span class="de">上部は素通し。写真が最も活きる</span></div>
+  <div class="two">
+    <div class="pane"><div class="lb">タブA</div><img id="g_a"></div>
+    <div class="pane"><div class="lb">タブB</div><img id="g_b"></div>
+  </div>
+  <div class="phones"><div class="p"><img id="gpa"><div class="t">実機 タブA</div></div><div class="p"><img id="gpb"><div class="t">実機 タブB</div></div></div>
+</div>
+
+<div class="pick">この並び順の <b>①＝枠なし ／ ②＝ヘアライン枠 ／ ③＝グラデーション</b> で指定してください。</div>
+<script>
+const m={
+ s_a:'a_seamless.jpg',    s_b:'b_seamless.jpg',    spa:'a_seamless.jpg',    spb:'b_seamless.jpg',
+ h_a:'a_hairline.jpg', h_b:'b_hairline.jpg', hpa:'a_hairline.jpg', hpb:'b_hairline.jpg',
+ g_a:'a_gradient.jpg', g_b:'b_gradient.jpg', gpa:'a_gradient.jpg', gpb:'b_gradient.jpg'};
+function r(){const t='?t='+Date.now();for(const k in m){const e=document.getElementById(k);if(e)e.src=m[k]+t;}}
+r();
+</script></body></html>
